@@ -1,0 +1,17 @@
+<div class="alignment">
+    <div class="logo">
+        <div>
+            <img src="../assets/images/pet.svg">
+        </div>
+        <div>
+            <h1 class="blackWhite">Ado<span>pet</span></h1>
+        </div>
+    </div>
+    <div *ngFor="let item of headerList" [ngClass]="{'highlighted': item.highlight}" (click)="navigateSite(item.url)">
+        <button>
+            {{ item.tittle }}
+            <img *ngIf="item.pathIcon" [src]="item.pathIcon">
+        </button>
+    </div>
+</div>
+    

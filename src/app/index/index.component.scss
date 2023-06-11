@@ -1,0 +1,224 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2:wght@400;500;600;700&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.cdnfonts.com/css/cascadia-mono');
+
+* {
+  font-family: 'Cascadia Mono', sans-serif;
+}
+
+// // HOME
+// .home {
+//     background-image: url(./../assets/images/background-home.svg);
+//     background-size: cover;
+//     background-position: center;
+//     background-repeat: no-repeat;
+//     z-index: 100000;
+// }
+
+// HEADER
+.alignment {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+
+    button {
+      font-weight: 700;
+    }
+}
+
+.highlighted {
+    button {
+        background: #3D2D22;
+        border: 1px solid rgba(160, 101, 12, 0.3);
+        box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+        border-radius: 8px;
+        width: 164px;
+        height: 47px;
+    }   
+}
+
+.logo {
+    display: flex
+}
+
+.image {
+    width: 100%;
+    position: relative;
+    top: -108px;
+    z-index: -1;
+    background-color: #FFAF15;
+    display: block;
+    
+}
+
+button {
+    color: rgb(255, 255, 255);
+    font-size: 16px;
+    line-height: 23px;
+    appearance: none;
+    border: none;
+    background-color: initial;
+    cursor: pointer;
+    text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+
+    img {
+        margin-bottom: -2px;
+        background-color: transparent;
+    }
+}
+
+// BODY
+
+.centered-text {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+  
+
+.blackWhite {
+    color: black;
+  
+    span {
+      color: white;
+    }
+}
+
+.source-icons-container {
+    margin-left: 96%;
+    margin-top: -29%;
+    
+    .source-icon {
+      margin-bottom: 30px;
+      transform: scale(1.5);
+      cursor: pointer;
+    }
+}
+
+.alignment-briefing {
+    margin-top: 20%;
+}
+
+.briefing {
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    line-height: 26px;
+}
+
+
+
+
+.cards {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.container {
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 25px;
+  }
+  
+  /* Card */
+  .card {
+    width: 285px;
+    height: 400px;
+    margin: 25px;
+    background-color: #fff;
+    border-radius: 20px;
+    overflow: hidden;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.7);
+    transition: 0.3s;
+  }
+  
+  /* Card Header*/
+  .card-header {
+    width: 100%;
+    height: 200px;
+    overflow: hidden;
+  }
+  
+  .card-img {
+    min-width: 100%;
+    width: auto;
+    height: 100%;
+  }
+  
+  /* Card Body */
+  .card-body {
+    height: 125px;
+    padding: 15px;
+    text-align: center;
+    font-family: sans-serif;
+  }
+  
+  .card-local {
+    font-size: 16px;
+    margin: 10px 0;
+  }
+  
+  .card-titulo {
+    font-size: 32px;
+    margin: 15px 0;
+  }
+  
+  .card-texto {
+    font-size: 12px;
+    width: 250px;
+    margin: 0 auto;
+  }
+  
+  /* Card Footer */
+  .card-footer {
+    text-align: center;
+    background-color: #000;
+  }
+  
+  .card-footer {
+    color: #fff;
+    display: block;
+    padding: 10px;
+    margin: 4%;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-weight: 600;
+    background-color: #FF9900;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 10px;
+    cursor: pointer;
+  }
+  
+  .infos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin-top: 2%;
+    box-shadow: 0 0px 5px rgba(0, 0, 0, 0.3);
+
+     .tittle {
+        margin: 5%;
+        font-weight: 700;
+      }
+
+      .text {
+        font-weight: 300;
+      }
+      
+      .infos-division {
+        padding: 3%;
+      }
+
+      span {
+        color: rgb(246, 183, 139);
+      }
+  }
+
+  .margin-footer {
+    margin-top: 150px;
+  }
+

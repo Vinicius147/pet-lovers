@@ -1,0 +1,80 @@
+<div>
+    <div >
+        <sfc-header></sfc-header>
+    </div>
+    <div>
+        <div>
+            <img class="image" src="../assets/images/Background (2).svg">
+        </div>
+    </div>
+    <div class="source-icons-container">
+        <div *ngFor="let item of iconsList">
+            <img class="source-icon" [src]="item.pathIcon" (click)="navigate(item.url)">
+        </div>
+    </div>
+    <div class="alignment-briefing">
+        <div class="briefing">
+            <p>Conheça o AdoPet</p>
+        </div>
+        <br>
+        <div class="briefing">
+            <p> Nós somos um grupo de alunos que compartilhamos do objetivo de ajudar as pessoas e protetores a se conectar trazendo <br> 
+                um espaço especial e que tem toda a atenção para esses animaizinhos que precisam muito da nossa ajuda com certeza vai <br> 
+                mudar sua vida. Juntos somos mais fortes!</p>
+        </div>
+    </div>
+    <div>
+        <div *ngIf="animals">     
+            <app-card [animals]="animals"></app-card>
+        </div>
+    </div>
+    <div class="infos">
+        <div class="infos-division">
+            <div>
+                <img src="../../assets/icons/ache-seu-pet.svg">
+            </div>
+            <div>
+                 <p class="tittle">Ache seu pet</p>
+            </div>
+            <div>
+                <p class="text"> Aqui é um espaço dedicado para adoção você irá conhecer os pets das ONGs/protetores parceiros para criar a conexão perfeita com cão e/ou gato que busca um novo lar.</p>
+            </div>
+        </div>
+        <div class="infos-division">
+            <div>
+                <img src="../../assets/icons/formulario-interesse.svg">
+            </div>
+            <div>
+                 <p class="tittle">Formulário de Interesse</p>
+            </div>
+            <div>
+                <p class="text"> Faça a entrevista na hora nas lojas com um voluntário da ONG/protetor. basta preencher o formulário de interesse que disponibilizamos aqui que a ONG/protetor entrará em contato com você em até 48h.</p>
+            </div>
+        </div>
+        <div class="infos-division">
+            <div>
+                <img src="../../assets/icons/avaliacao-adocao.svg">
+            </div>
+            <div>
+                 <p class="tittle">Avaliação da adoção</p>
+            </div>
+            <div>
+                <p class="text"> A ONG/protetor parceiro irá fazer a análise do cadastro e perfil do adotante vs pet escolhido. Preenchendo os requisitos, você recebe a aprovação e contato da a ONG/protetor ou por telefone / e-mail caso seja preenchido o formulário online</p>
+            </div>
+        </div>
+        <div class="infos-division">
+            <div>
+                <img src="../../assets/icons/adocao-completa.svg">
+            </div>
+            <div>
+                 <p class="tittle">Adoção Completa</p>
+            </div>
+            <div>
+                <p class="text">Caso seja aprovado você já pode levar seu pet para casa! Se enviou o formulário online, espere o contato e a aprovação. Com tudo certo, você busca seu pet na Ong/Protetor no dia combinado</p>
+            </div>
+        </div>
+    </div>
+    <div class="margin-footer">
+        <sfc-footer></sfc-footer>
+    </div>
+</div>

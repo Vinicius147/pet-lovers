@@ -1,0 +1,114 @@
+.alinhamento {
+    display: flex;
+}
+
+.header {
+    background-image: url('../../assets/images/background-quero-adotar.svg');
+    margin-top: -25px;
+}
+
+.background {
+    color: white;
+    background-color: #3D2D22;
+    margin: 10% 25%;
+    border-radius: 50px;
+}
+
+.alinhamento-centro{
+    display: grid;
+    justify-items: center;
+}
+
+.margin {
+    margin-top: 1%;
+}
+
+.nome {
+    width: 95%;
+}
+
+.nascimento {
+    width: 100%;
+}
+
+.email {
+    margin-left: 5%;
+    width: 210%;
+}
+
+.bloco-dois {
+    width: 90%;
+}
+
+.bloco-dois-numero1 {
+    width: 85%;
+}
+
+.bloco-dois-numero2 {
+    margin-left: -10%;
+    width: 90%;
+}
+
+.input-size-endereco {
+    width: 95%;
+}
+
+.campos-espacamento {
+    margin-left: -1px;
+
+    input {
+        width: 85%;
+    }
+}
+
+input , select {
+    background: #FFFFFF;
+    border: 1px solid #FF7E00;
+    border-radius: 20px;
+    height: 40px;
+    margin-top: 8px;
+    padding: 8px;
+}
+
+select{
+    
+    width: 335px;
+}
+
+
+.button {
+    width: 819.2px;
+    height: 58px;
+
+    background: #FF9900;
+    border: 1px solid #3B1701;
+    border-radius: 20px;
+
+    font-style: normal;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 28px;
+    margin-bottom: 36px;
+    /* identical to box height, or 88% */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+    cursor: pointer;
+    
+}
+
+.button:hover{
+    background: #b06900;
+}
+
+.espacamento-checkbox {
+    line-height: 45px;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
