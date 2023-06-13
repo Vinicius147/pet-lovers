@@ -11,10 +11,9 @@ export class QueroAdotarComponent {
     {name: 'AMORA', local: 'SÃO PAULO', state: 'SP', photo: '../../assets/images/Amora.svg'},
     {name: 'APOLO', local: 'UBERLANDIA', state: 'MG', photo: '../../assets/images/apolo.svg'},
     {name: 'ANAHI', local: 'BRASILIA', state: 'DF', photo: '../../assets/images/Anahi.svg'},
-    {name: 'AMORA', local: 'SÃO PAULO', state: 'SP', photo: '../../assets/images/Amora.svg'},
-    {name: 'APOLO', local: 'UBERLANDIA', state: 'MG', photo: '../../assets/images/apolo.svg'},
-    {name: 'ANAHI', local: 'BRASILIA', state: 'DF', photo: '../../assets/images/Anahi.svg'},
-    {name: 'AMORA', local: 'SÃO PAULO', state: 'SP', photo: '../../assets/images/Amora.svg' , email: 'giovannacmandu@gmail.com'},
+    {name: 'BILL', local: 'BRASILIA', state: 'DF', photo: '../../assets/images/pet.svg'},
+    {name: 'AGNES', local: 'TERESINA', state: 'PI', photo: '../../assets/images/pet.svg'},
+    {name: 'DESIRRE', local: 'FLORIANOPOLIS', state: 'SC', photo: '../../assets/images/pet.svg' , email: 'giovannacmandu@gmail.com'},
     
     
   ]
