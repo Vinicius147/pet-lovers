@@ -2,8 +2,7 @@
     <input type="hidden" name="_autoresponse" value="Pronto! Recebemos suas informaçoes e logo a Ong/Instituição retornara o contato.">
     <input type="hidden" name="_template" value="box">
     <input type="hidden" name="_subject" value="Nova Adoção!">
-    <!-- <input type="hidden" name="_captcha" value="false"> -->
-    <input type="hidden" name="_next" value="http://127.0.0.1:5500/src/end.html">
+    <!-- <input type="hidden" name="_next" value="end"> -->
 
 
 
@@ -14,14 +13,14 @@
         <div class="alinhamento margin">
             <div>
                 <div>
-                    <input type="text" placeholder="Nome" class="nome" name="nome">
+                    <input type="text" placeholder="Nome" class="nome" name="nome" required>
                 </div>
                 <div class="alinhamento">
                     <div>
-                        <input type="date" placeholder="Data de nascimento" class="nascimento" name="data-de-nascimento">
+                        <input type="date" placeholder="Data de nascimento" class="nascimento" name="data-de-nascimento" required>
                     </div>
                     <div>
-                        <input type="email" placeholder="Email" class="email" name="email">
+                        <input type="email" placeholder="Email" class="email" name="email" required>
                     </div>
                 </div>
                 <div class="alinhamento campos-espacamento">
@@ -29,14 +28,14 @@
                         <input type="text" placeholder="CPF" name="cpf">
                     </div>
                     <div>
-                        <input type="number" placeholder="Tel" name="celular">
+                        <input type="number" placeholder="Tel" name="celular" required>
                     </div>
                     <div>
-                        <input type="number" placeholder="CEP" name="cep">
+                        <input type="number" placeholder="CEP" name="cep" required>
                     </div>
                 </div>
                 <div>
-                    <input class="input-size-endereco" type="text" placeholder="Rua" name="endereco">
+                    <input class="input-size-endereco" type="text" placeholder="Rua" name="endereco" required>
                 </div>
             </div>
             <div>
@@ -44,19 +43,19 @@
                     <input type="text" placeholder="Estado" class="bloco-dois" name="estado">
                 </div>
                 <div>
-                    <input type="text" placeholder="Cidade" class="bloco-dois" name="cidade">
+                    <input type="text" placeholder="Cidade" class="bloco-dois" name="cidade" >
                 </div>
                 <div class="alinhamento">
                     <div>
                         <input type="number" placeholder="Numero" class="bloco-dois-numero1">
                     </div>
                     <div>
-                        <input type="number" placeholder="Complemento" class="bloco-dois-numero2">
+                        <input type="text" placeholder="Complemento" class="bloco-dois-numero2">
                     </div>
                 </div>
                 <div>
-                    <select type="pet-escolhido" name="pet-escolhido" >
-                        <option value="Escolha" selected disabled >Escolha um Pet!</option>
+                    <select type="pet-escolhido" name="pet-escolhido"  required>
+                        <option value="Escolha"  disabled >Escolha um Pet!</option>
                         <option value="Anahi">Anahi</option>
                         <option value="Apolo">Apolo</option>
                         <option value="Amora">Amora</option>
