@@ -1,3 +1,5 @@
+@import url('https://fonts.cdnfonts.com/css/cascadia-mono');
+
 .alignment {
     display: flex;
     justify-content: space-evenly;
@@ -92,6 +94,7 @@ button {
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
+  
 }
 
 
@@ -124,6 +127,7 @@ button {
     min-width: 100%;
     width: auto;
     height: 100%;
+    
   }
   
   /* Card Body */
@@ -140,8 +144,9 @@ button {
   }
   
   .card-titulo {
-    font-size: 32px;
+    font-size: 24px;
     margin: 15px 0;
+    font-family: 'Cascadia Mono', sans-serif;
   }
   
   .card-texto {
