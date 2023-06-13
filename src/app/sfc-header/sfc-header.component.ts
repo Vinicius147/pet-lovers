@@ -15,7 +15,7 @@ export class SfcHeaderComponent {
     {tittle: 'Sobre nós', highlight: false, icon: false, url: 'quero-adotar'},
     {tittle: 'Contato', highlight: false, icon: false, url: 'quero-adotar'},
     {tittle: 'Quero Adotar', highlight: true, pathIcon: '../../assets/images/heart.svg', url: '/quero-adotar'},
-    {tittle: 'Contato', highlight: true, icon: false, url: 'quero-adotar'}
+    {tittle: 'Home', highlight: true, icon: false, url: 'index'}
   ]
 
   navigateSite(url: string) {

@@ -10,6 +10,7 @@ import { QueroAdotarComponent } from './quero-adotar/quero-adotar.component';
 import { IndexComponent } from './index/index.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormularioComponent } from './formulario/formulario.component';
+import { ContatoComponent } from './contato/contato.component';
 
 @NgModule({
   declarations: [
@@ -20,7 +21,8 @@ import { FormularioComponent } from './formulario/formulario.component';
     QueroAdotarComponent,
     IndexComponent,
     FormsComponent,
-    FormularioComponent
+    FormularioComponent,
+    ContatoComponent
   ],
   imports: [
     BrowserModule,
