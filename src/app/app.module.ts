@@ -11,6 +11,7 @@ import { IndexComponent } from './index/index.component';
 import { FormsComponent } from './forms/forms.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { ContatoComponent } from './contato/contato.component';
+import { EndComponent } from './end/end.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { ContatoComponent } from './contato/contato.component';
     IndexComponent,
     FormsComponent,
     FormularioComponent,
-    ContatoComponent
+    ContatoComponent,
+    EndComponent
   ],
   imports: [
     BrowserModule,
