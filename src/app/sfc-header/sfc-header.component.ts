@@ -12,8 +12,8 @@ export class SfcHeaderComponent {
   constructor(private router: Router) {}
   
   headerList = [
-    {tittle: 'Sobre nós', highlight: false, icon: false, url: 'quero-adotar'},
-    {tittle: 'Contato', highlight: false, icon: false, url: 'quero-adotar'},
+    {tittle: 'Sobre nós', highlight: false, icon: false, url: 'index'},
+    {tittle: 'Contato', highlight: false, icon: false, url: 'contato'},
     {tittle: 'Quero Adotar', highlight: true, pathIcon: '../../assets/images/heart.svg', url: '/quero-adotar'},
     {tittle: 'Home', highlight: true, icon: false, url: 'index'}
   ]

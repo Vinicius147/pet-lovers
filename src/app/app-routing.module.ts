@@ -4,6 +4,7 @@ import { QueroAdotarComponent } from './quero-adotar/quero-adotar.component';
 import { IndexComponent } from './index/index.component';
 import { FormularioComponent } from './formulario/formulario.component';
 import { EndComponent } from './end/end.component';
+import { ContatoComponent } from './contato/contato.component';
 
 
 const routes: Routes = [
@@ -11,7 +12,8 @@ const routes: Routes = [
   { path: 'index', component: IndexComponent},
   { path: 'quero-adotar', component: QueroAdotarComponent},
   { path: 'forms', component: FormularioComponent},
-  { path: 'end', component: EndComponent}
+  { path: 'end', component: EndComponent},
+  { path: 'contato', component: ContatoComponent}
 ];
 
 @NgModule({
