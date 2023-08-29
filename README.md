@@ -2,13 +2,13 @@
 
 <h2>Sobre o Projeto</h2>
 
-<h3> Principais Tecnologias Utilizadas </h3>
+<h3> Principais Tecnologias Utilizadas durante o projeto </h3>
 <a href="https://github.com/tandpfun/skill-icons/raw/main/icons/Angular-Dark.svg"></a>
 
 <div>
   <p align="left">
   <a href="https://skillicons.dev">
-    <img src="https://skillicons.dev/icons?i=html,css,typescript,angular" />
+    <img src="https://skillicons.dev/icons?i=html,css,typescript,angular,figma" />
   </a>
 </p>
 </div>
